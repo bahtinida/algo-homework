@@ -1,0 +1,3 @@
+/Users/mariiayemelianova/words_searcher/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/mariiayemelianova/words_searcher/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mariiayemelianova/words_searcher/cmake-build-debug/CMakeFiles/untitled.dir

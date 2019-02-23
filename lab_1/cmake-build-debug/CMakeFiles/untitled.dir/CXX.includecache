@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mariiayemelianova/algo-homework/lab_1/Worker.h
+iostream
+-
+ctype.h
+-
+string
+-
+
+/Users/mariiayemelianova/algo-homework/lab_1/main.cpp
+ctype.h
+-
+iostream
+-
+Worker.h
+/Users/mariiayemelianova/algo-homework/lab_1/Worker.h
+wordssearcher.h
+/Users/mariiayemelianova/algo-homework/lab_1/wordssearcher.h
+
+/Users/mariiayemelianova/algo-homework/lab_1/wordssearcher.h
+string
+-
+vector
+-
+
