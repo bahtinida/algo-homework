@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mariiayemelianova/words_searcher
+CMAKE_SOURCE_DIR = /Users/mariiayemelianova/algo-homework/lab_2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mariiayemelianova/words_searcher/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mariiayemelianova/algo-homework/lab_2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mariiayemelianova/words_searcher/cmake-build-debug/CMakeFiles /Users/mariiayemelianova/words_searcher/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mariiayemelianova/algo-homework/lab_2/cmake-build-debug/CMakeFiles /Users/mariiayemelianova/algo-homework/lab_2/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mariiayemelianova/words_searcher/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mariiayemelianova/algo-homework/lab_2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ untitled/fast:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
-Worker.o: Worker.cpp.o
+consonantsfilter.o: consonantsfilter.cpp.o
 
-.PHONY : Worker.o
+.PHONY : consonantsfilter.o
 
 # target to build an object file
-Worker.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Worker.cpp.o
-.PHONY : Worker.cpp.o
+consonantsfilter.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/consonantsfilter.cpp.o
+.PHONY : consonantsfilter.cpp.o
 
-Worker.i: Worker.cpp.i
+consonantsfilter.i: consonantsfilter.cpp.i
 
-.PHONY : Worker.i
+.PHONY : consonantsfilter.i
 
 # target to preprocess a source file
-Worker.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Worker.cpp.i
-.PHONY : Worker.cpp.i
+consonantsfilter.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/consonantsfilter.cpp.i
+.PHONY : consonantsfilter.cpp.i
 
-Worker.s: Worker.cpp.s
+consonantsfilter.s: consonantsfilter.cpp.s
 
-.PHONY : Worker.s
+.PHONY : consonantsfilter.s
 
 # target to generate assembly for a file
-Worker.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Worker.cpp.s
-.PHONY : Worker.cpp.s
+consonantsfilter.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/consonantsfilter.cpp.s
+.PHONY : consonantsfilter.cpp.s
 
 main.o: main.cpp.o
 
@@ -177,33 +177,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-wordssearcher.o: wordssearcher.cpp.o
-
-.PHONY : wordssearcher.o
-
-# target to build an object file
-wordssearcher.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/wordssearcher.cpp.o
-.PHONY : wordssearcher.cpp.o
-
-wordssearcher.i: wordssearcher.cpp.i
-
-.PHONY : wordssearcher.i
-
-# target to preprocess a source file
-wordssearcher.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/wordssearcher.cpp.i
-.PHONY : wordssearcher.cpp.i
-
-wordssearcher.s: wordssearcher.cpp.s
-
-.PHONY : wordssearcher.s
-
-# target to generate assembly for a file
-wordssearcher.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/wordssearcher.cpp.s
-.PHONY : wordssearcher.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,15 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... untitled"
-	@echo "... Worker.o"
-	@echo "... Worker.i"
-	@echo "... Worker.s"
+	@echo "... consonantsfilter.o"
+	@echo "... consonantsfilter.i"
+	@echo "... consonantsfilter.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... wordssearcher.o"
-	@echo "... wordssearcher.i"
-	@echo "... wordssearcher.s"
 .PHONY : help
 
 

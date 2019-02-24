@@ -4,9 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/mariiayemelianova/words_searcher/Worker.cpp" "/Users/mariiayemelianova/words_searcher/cmake-build-debug/CMakeFiles/untitled.dir/Worker.cpp.o"
-  "/Users/mariiayemelianova/words_searcher/main.cpp" "/Users/mariiayemelianova/words_searcher/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
-  "/Users/mariiayemelianova/words_searcher/wordssearcher.cpp" "/Users/mariiayemelianova/words_searcher/cmake-build-debug/CMakeFiles/untitled.dir/wordssearcher.cpp.o"
+  "/Users/mariiayemelianova/algo-homework/lab_2/consonantsfilter.cpp" "/Users/mariiayemelianova/algo-homework/lab_2/cmake-build-debug/CMakeFiles/untitled.dir/consonantsfilter.cpp.o"
+  "/Users/mariiayemelianova/algo-homework/lab_2/main.cpp" "/Users/mariiayemelianova/algo-homework/lab_2/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

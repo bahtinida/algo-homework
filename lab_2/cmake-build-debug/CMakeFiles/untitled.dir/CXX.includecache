@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mariiayemelianova/algo-homework/lab_2/consonantsfilter.cpp
+consonantsfilter.h
+/Users/mariiayemelianova/algo-homework/lab_2/consonantsfilter.h
+
+/Users/mariiayemelianova/algo-homework/lab_2/consonantsfilter.h
+iostream
+-
+string
+-
+
+/Users/mariiayemelianova/algo-homework/lab_2/main.cpp
+ctype.h
+-
+iostream
+-
+consonantsfilter.h
+/Users/mariiayemelianova/algo-homework/lab_2/consonantsfilter.h
+

@@ -12,7 +12,6 @@ public:
     void sort();
     void print();
 
-
     //todo - how to make this function private - for it is a helper function??
     bool isGreater(int val1, int val2);
 

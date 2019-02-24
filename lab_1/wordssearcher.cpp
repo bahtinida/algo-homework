@@ -15,7 +15,6 @@ WordsSearcher::WordsSearcher(const std::string &words)
     free(buf);
 }
 
-//todo - need to sort this out))
 void WordsSearcher::sort()
 {
     int size = (int) mWordsList.size();
@@ -46,24 +45,9 @@ void WordsSearcher::swapElementsInWordsList(int index1, int index2)
 
 }
 
-/*void WordsSearcher::sort() {
-    std::sort(mWordsList.begin(), mWordsList.end(),
-              [](const std::string& str1,
-                 const std::string& str2) {
-        return str1.length() > str2.length();
-    });
-}*/
-
-//void WordsSearcher::print()
-//{
-//
-//    //todo - add logic to print string
-//}
-
 
 void WordsSearcher::print() {
     for (const auto& word : mWordsList) {
         std::cout << word << std::endl;
     }
-    }
-
+}

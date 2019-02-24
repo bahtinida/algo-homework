@@ -1,9 +1,8 @@
-// Лабораторна робота №3. Вариант 5
+//lab. work #2
 
 #include <ctype.h>
 #include <iostream>
-#include "Worker.h"
-#include "wordssearcher.h"
+#include "consonantsfilter.h"
 
 using namespace std;
 
@@ -11,19 +10,11 @@ using namespace std;
 //lab.robota #1
 
 
-int main()
-{
-            Worker work;
-            string words = "SUN,PIES,LEMON.";
-            int wordsCount = work.countWordsInString(words);
-
-            int  * lengths = work.getArrayOfWordLengths(words);
-
-            cout << "total words: " << wordsCount << std::endl;
-
-            WordsSearcher searcher("dogs,sheep,PIG,on_the_wing.");
-            searcher.sort();
-            searcher.print();
+int main() {
+    ConsonantsFilter cf;
+    string phrase = "Hello, it's a beautiful day today.";
+    string filtered = cf.getConsonantsFromEverySecondWord(phrase);
+    std::cout << filtered;
 
 
     return 0;

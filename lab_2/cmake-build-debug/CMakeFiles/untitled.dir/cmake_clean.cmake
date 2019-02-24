@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/untitled.dir/main.cpp.o"
-  "CMakeFiles/untitled.dir/Worker.cpp.o"
-  "CMakeFiles/untitled.dir/wordssearcher.cpp.o"
+  "CMakeFiles/untitled.dir/consonantsfilter.cpp.o"
   "untitled.pdb"
   "untitled"
 )
